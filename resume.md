@@ -80,12 +80,14 @@
 
 ### University of Western Australia
 **Master of Data Science | Global Excellence Scholarship | 2024 – 2025**
+
 - NLP Project (top marks in cohort): Built BiLSTM attention models for aspect-based sentiment classification using TensorFlow/Keras with multi-input architectures (text + POS tags + aspect embeddings)
 - Coursework: Machine Learning, NLP, Applied Predictive Modelling, Data Warehousing, AI Adaptive Systems, Relational Databases, Open Source Tools and Scripting
 - Certificates: Financial Engineering & Risk Management (Columbia University, Coursera); Fundamentals of Quantitative Modelling (Wharton Online, Coursera)
 
 ### Symbiosis Institute of Technology
 **B.Tech Computer Science, Honours in AI & ML | 2019 – 2023**
+
 - Research Paper: "State-of-the-Art Analysis of Multiple Object Detection Techniques using Deep Learning" — published in IJACSA (Vol. 14, Issue 6, 2023)
 - Coursework: Deep Learning, Neural Networks, Probability Theory, Linear Algebra, Big Data Analytics, Cloud Computing
 - GRE Quant: 169/170 | CAT 2022: 99.63 percentile | MAH-CET: 99.81 percentile

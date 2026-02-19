@@ -1,0 +1,4 @@
+# Everything except resume.md
+*
+!.gitignore
+!resume.md
