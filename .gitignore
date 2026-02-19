@@ -1,4 +1,6 @@
-# Everything except resume.md
+# Everything except resume.md, resume.pdf, README.md
 *
 !.gitignore
 !resume.md
+!resume.pdf
+!README.md
