@@ -20,14 +20,13 @@
 **Perth, Australia | Nov 2025 – Present**
 
 #### Merchant Enrichment Pipeline
-- Designed and built an event-driven system from scratch that resolves raw transaction descriptions to structured merchant data (name, website, logo, category) using web search, LLM reasoning with structured outputs (AWS Bedrock), and automated logo scraping with headless Chromium.
-- Implemented hexagonal (ports & adapters) architecture in Go with 6 interface ports, enabling full mock-based unit testing (29 tests) with zero infrastructure dependencies.
+- Designed and built an event-driven system from scratch that resolves raw transaction descriptions to structured merchant data (name, website, logo, category) using web search, LLM reasoning with structured outputs (AWS Bedrock), and automated logo scraping with headless Chromium and Playwright.
+- Implemented hexagonal (ports & adapters) architecture in Go with 6 interface ports, enabling full mock-based unit testing with zero infrastructure dependencies.
 - Built a multi-stage entity deduplication pipeline combining exact matching, fuzzy similarity scoring, and LLM-based semantic matching to reduce duplicate records by 90%+.
 
 #### ML Categorization Platform
-- Own the transaction categorization service end-to-end — a custom transformer model (TXFormer) trained on SageMaker with multi-source labelling (human annotations, MCC codes, embeddings, LLM-generated labels, rule-based labels), exported to ONNX with INT8 quantization, and served on EKS processing thousands of daily transactions.
-- Contributed to the model training data pipeline — human labelling on Label Studio and a self-hosted portal, with inter-annotator disagreement tracking and iterative label quality improvement across multiple training cycles.
-- Operate the EKS-deployed categorization service — Helm deployments, pod scaling, health checks, and cross-service integration via SQS between Lambda and EKS workloads.
+- Own the transaction categorization service end-to-end: a custom transformer model (TXFormer) trained on SageMaker with multi-source labelling (human annotations, MCC codes, embeddings, LLM-generated labels, rule-based labels), exported to ONNX with INT8 quantization, and served on EKS processing thousands of daily transactions.
+- Operate the EKS-deployed categorization service: Helm deployments, pod scaling, health checks, and cross-service integration via SQS between Lambda and EKS workloads.
 
 #### Predictive Modelling & Data Science
 - Built prediction pipelines on SageMaker using logistic regression, WOE/IV feature ranking, and case-based reasoning, informing product decisions on user eligibility scoring.
@@ -48,7 +47,7 @@
 
 - Engineered PCA-based evaluation frameworks for chatbot systems, reducing high-dimensional conversation data to key performance drivers and enabling targeted system improvements.
 - Created custom voice- and text-based chatbot metrics (user satisfaction, response accuracy, conversation flow coherence) adopted as the team's standard evaluation suite, replacing ad-hoc manual reviews.
-- Built analysis pipelines in Python (pandas, NumPy, matplotlib) to process conversation logs and generate automated performance reports across multiple chatbot configurations.
+- Built analysis pipelines in Python to process conversation logs and generate automated performance reports across multiple chatbot configurations.
 - Containerized the evaluation service using Docker, enabling reproducible deployment and consistent results across development and staging environments.
 - Led the chatbot evaluation workstream, coordinating tasks across a small team and ensuring consistent delivery of analytical outputs to stakeholders.
 
@@ -62,7 +61,7 @@
 - Worked in an Agile environment using Jira for sprint planning and Confluence for technical documentation, contributing to Cerence Studio being recognized as a top-7 product company-wide.
 
 ### Object Detection for Visually Impaired — Symbiosis University
-**Pune, India | Jan 2022 – Dec 2023** | *ML Researcher*
+**Pune, India | Jan 2022 – Dec 2023** 
 
 - Led a 3-person team to build a real-time object detection system for visually impaired navigation, fine-tuning YOLOv5 to 95–98% accuracy on high-priority object classes.
 - Conducted comparative analysis of YOLO architectures (v3–v5), evaluating detection speed, accuracy, and model size tradeoffs including lightweight mobile-optimised variants for edge deployment. Published findings in IJACSA (Vol. 14, Issue 6).
@@ -91,7 +90,7 @@
 
 - Research Paper: "State-of-the-Art Analysis of Multiple Object Detection Techniques using Deep Learning" — published in IJACSA (Vol. 14, Issue 6, 2023)
 - Coursework: Deep Learning, Neural Networks, Probability Theory, Linear Algebra, Big Data Analytics, Cloud Computing
-- GRE Quant: 169/170 | CAT 2022: 99.63 percentile | MAH-CET: 99.81 percentile
+- GRE Quant: 169/170 | CAT 2022 (India's biggest aptitude test): 99.63 percentile | MAH-CET: 99.81 percentile
 - SOF IMO School Gold Medalist (11 & 12) | National Creative Aptitude Test: All India Rank 39 | Aston University x Symbiosis Hackathon Finalist
 
 ---
